@@ -7,9 +7,9 @@ import java.sql.SQLException;
 public class DbConnect {
 
 	private static final String URL = "jdbc:oracle:thin:@localhost:1521/orcl"; 
-	//String dbURL = "jdbc:oracle:thin:sys/orapass@localhost:1521:SoftwareSecurity";
-    private static final String USER = "SYS as SYSDBA"; 
-    private static final String PASS = "orapass"; 
+	//String dbURL = "jdbc:oracle:thin:sys/orapass@localhost:1521:";
+    private static final String USER = ""; 
+    private static final String PASS = ""; 
     private static final String DRIVER = "oracle.jdbc.driver.OracleDriver"; 
     
     public static Connection getConnection() {
